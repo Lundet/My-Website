@@ -1,0 +1,123 @@
+/* styles/home.css */
+
+/* Base styles */
+
+.home-container {
+    display: flex;
+    flex-direction: column;
+    max-width: 90%;
+    margin: auto;
+    padding: 20px;
+  }
+  
+  body {
+    background-color: #222; /* Dark gray background color */
+    color: #fff; /* White text color to contrast with the dark background */
+  }
+  
+  .main-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin-bottom: 40px;
+  }
+  
+  .text-section {
+    text-align: center;
+    flex: 1;
+    margin-right: 20px;
+  }
+  
+  .text-section h2 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+  }
+  
+  .text-section p {
+    font-size: 1.1rem;
+    line-height: 1.6;
+  }
+  
+  .picture-section {
+    flex: 1;
+    margin-right: 20px;
+  }
+  
+  .skills-section {
+    flex: 1;
+  }
+  
+  .profile-picture {
+    width: 100%;
+    max-width: 80%;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* About Me button */
+  
+  .about-button {
+    margin-top: 15%;
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: rgba(0, 123, 255, 0.7); /* Semi-transparent blue color */
+    color: #fff; /* White text color */
+    text-decoration: none;
+    border-radius: 20px; /* Rounded border */
+    transition: background-color 0.3s ease;
+  }
+  
+  .about-button:hover {
+    background-color: rgba(0, 123, 255, 1); /* Solid blue color on hover */
+  }
+  
+/* Navigation cards */
+
+.navigation-cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  
+  .navigation-cards .card {
+    width: calc(25% - 20px);
+    border-radius: 10px;
+    padding: 2rem;
+    margin: 100px 0;;
+    text-align: center;
+    transition: transform 0.3s ease;
+    background-color: rgba(0, 123, 255, 0.7); /* Same blue color as the About Me button */
+    color: #fff; /* White text color */
+    text-decoration: none;
+  }
+  
+  .navigation-cards .card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.3);
+  }
+  
+  .navigation-cards .card h4 {
+    margin-top: 0;
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+  }
+  
+  .navigation-cards .card p {
+    font-size: 1rem;
+  }
+  
+  .navigation-cards .card.about-me {
+    margin-top: 20px;
+  }
+  
+  .navigation-cards .card-link {
+    display: block;
+    color: inherit; /* Inherit text color from parent */
+    text-decoration: none;
+  }
+  
+  .navigation-cards .card-link:hover {
+    text-decoration: underline; /* Underline link on hover */
+  }
+  
+  

@@ -1,0 +1,19 @@
+/* styles/hobbies.css */
+#hobbies {
+    background-color: rgba(0, 0, 0, 0.7);
+    color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+#hobbies h2 {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+}
+
+#hobbies p {
+    font-size: 1rem;
+    line-height: 1.5;
+    margin-bottom: 10px;
+}
