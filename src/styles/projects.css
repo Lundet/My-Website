@@ -1,17 +1,18 @@
-/* styles/projects.css */
 #projects {
+    background-color: rgba(255, 255, 255, 0.815);
+    color: #000000;
     padding: 20px;
     border-radius: 10px;
     margin-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Center horizontally */
+    text-align: center; /* Center text */
 }
 
 #projects h2 {
-    font-size: 1.5rem;
-    margin-bottom: 10px;
-}
-
-#projects p {
-    margin-bottom: 20px; /* Add margin to separate the project info from the project items */
+    font-size: 1.8rem;
+    margin-bottom: 20px;
 }
 
 #projects ul {
@@ -20,24 +21,41 @@
 }
 
 #projects li {
+    margin-bottom: 40px;
     display: flex;
-    align-items: center; /* Align items vertically in the middle */
-    margin-bottom: 20px;
+    flex-direction: column;
+    align-items: center; /* Center horizontally */
+    text-align: center; /* Center text */
 }
 
 #projects li img {
-    width: 200px;
-    margin-right: 20px;
-    border-radius: 5px;
+    width: 50%; /* Set width to 50% of the screen */
+    height: auto;
+    margin-bottom: 20px; /* Add margin between image and text */
+    border-radius: 10px;
+}
+
+#projects li .image-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center; /* Center images horizontally */
+}
+
+#projects li .image-container img {
+    width: 40%; /* Set width to 40% of the screen */
+    height: auto;
+    margin-right: 20px; /* Add margin between images */
+    border-radius: 10px;
 }
 
 #projects li div {
-    flex: 1; /* Let the div fill the remaining space */
+    flex-grow: 1;
+    width: 100%; /* Set width to 100% of the container */
 }
 
 #projects li h3 {
-    font-size: 1.2rem;
-    margin-bottom: 5px;
+    font-size: 1.4rem;
+    margin-bottom: 10px;
 }
 
 #projects li p {
@@ -45,19 +63,11 @@
 }
 
 #projects li a {
-    color: #007bff;
+    color: #66ccff;
     text-decoration: none;
     transition: color 0.3s ease;
 }
 
 #projects li a:hover {
-    color: #0056b3;
+    color: #fff;
 }
-#projects .image-container {
-    display: flex;
-  }
-  
-  #projects .image-container img {
-    width: 50%;
-  }
-  

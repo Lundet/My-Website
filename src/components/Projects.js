@@ -1,5 +1,11 @@
 import React from 'react';
 import '../styles/projects.css';
+import canvasGameImage from '../images/canvas-game.png';
+import reactCinemaImage1 from '../images/react1.png';
+import reactCinemaImage2 from '../images/react2.png';
+import phpBookReviewImage from '../images/book.review.png';
+import makeYourOwnWebsiteImage from '../images/make-your-own-site.png';
+import preschoolSiteImage from '../images/pree-school.png';
 
 function Projects() {
   return (
@@ -10,48 +16,43 @@ function Projects() {
       </p>
       <ul>
         <li>
-          <img src="/path/to/canvas-game-image.jpg" alt="Canvas Game" />
           <div>
             <h3>Canvas Game</h3>
             <p>A browser-based game created using HTML5 Canvas and JavaScript.</p>
           </div>
+          <img src={canvasGameImage} alt="Canvas Game" />
         </li>
         <li>
-          <div className="image-container">
-            <img src="/path/to/react-cinema-site-image1.jpg" alt="React Cinema Site Image 1" />
-            <img src="/path/to/react-cinema-site-image2.jpg" alt="React Cinema Site Image 2" />
-          </div>
           <div>
             <h3>React Cinema Site</h3>
             <p>A cinema website developed with React, showcasing movie listings and details.</p>
           </div>
+          <div className="image-container">
+            <img src={reactCinemaImage1} />
+            <img src={reactCinemaImage2} />
+          </div>
         </li>
-
         <li>
-          <img src="/path/to/php-book-review-image.jpg" alt="PHP Book Review" />
           <div>
             <h3>PHP Book Review</h3>
             <p>A book review platform built with PHP and MySQL, allowing users to review and rate books.</p>
           </div>
+          <img src={phpBookReviewImage} />
         </li>
         <li>
-          <img src="/path/to/make-your-own-website-image.jpg" alt="Make Your Own Website" />
           <div>
             <h3>Make Your Own Website</h3>
             <p>A PHP case where users can create their own websites using a custom-built platform.</p>
           </div>
+          <img src={makeYourOwnWebsiteImage} />
         </li>
         <li>
-          <img src="/path/to/preschool-site-image.jpg" alt="Preschool Site" />
           <div>
             <h3>Preschool Site</h3>
-            <p>
-              An end project for school, this preschool site is designed to be user-friendly and informative for both parents and teachers. Developed with a combination of HTML, CSS, and JavaScript, the site includes features like class schedules, teacher bios, and a gallery of student activities.
-            </p>
+            <p>An end project for school, this preschool site is designed to be user-friendly and informative for both parents and teachers. Developed with a combination of HTML, CSS, and JavaScript, the site includes features like class schedules, teacher bios, and a gallery of student activities.</p>
           </div>
+          <img src={preschoolSiteImage} />
         </li>
-
-
       </ul>
     </section>
   );
