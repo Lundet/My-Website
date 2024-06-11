@@ -3,7 +3,7 @@ import React from 'react';
 import '../styles/skills.css';
 function Skills() {
   return (
-    <section id="skills">
+    <aside id="skills">
       <h2>Skills</h2>
       <div className="skill-tree">
         <ul>
@@ -47,7 +47,7 @@ function Skills() {
           </li>
         </ul>
       </div>
-    </section>
+    </aside>
   );
 }
 
