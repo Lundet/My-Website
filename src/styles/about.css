@@ -1,3 +1,5 @@
+/* styles/about.css */
+
 #about {
     background-color: #333;
     color: #fff;
@@ -6,15 +8,16 @@
     margin-bottom: 20px;
     max-width: 800px;
     margin: auto;
+    margin-top: 50px;
 }
 
 #about h2 {
-    font-size: 2rem; /* Increased font size */
-    margin-bottom: 15px; /* Increased margin */
+    font-size: 1.5rem;
+    margin-bottom: 10px;
 }
 
 #about p {
-    font-size: 1.1rem; /* Larger font size for paragraphs */
-    line-height: 1.6; /* Increased line height for better readability */
-    margin-bottom: 15px; /* Increased margin */
+    font-size: 1rem;
+    line-height: 1.5;
+    margin-bottom: 10px;
 }

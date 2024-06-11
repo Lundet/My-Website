@@ -1,58 +1,63 @@
+/* styles/projects.css */
 #projects {
-    background-color: rgba(0, 0, 0, 0.7);
-    color: #fff;
     padding: 20px;
     border-radius: 10px;
     margin-bottom: 20px;
-    max-width: none;
-  }
-  
-  #projects h2 {
+}
+
+#projects h2 {
     font-size: 1.5rem;
     margin-bottom: 10px;
-  }
-  
-  #projects p {
-    font-size: 1rem;
-    margin-bottom: 20px;
-  }
-  
-  #projects ul {
+}
+
+#projects p {
+    margin-bottom: 20px; /* Add margin to separate the project info from the project items */
+}
+
+#projects ul {
     list-style-type: none;
     padding: 0;
-  }
-  
-  #projects li {
+}
+
+#projects li {
+    display: flex;
+    align-items: center; /* Align items vertically in the middle */
     margin-bottom: 20px;
+}
+
+#projects li img {
+    width: 200px;
+    margin-right: 20px;
+    border-radius: 5px;
+}
+
+#projects li div {
+    flex: 1; /* Let the div fill the remaining space */
+}
+
+#projects li h3 {
+    font-size: 1.2rem;
+    margin-bottom: 5px;
+}
+
+#projects li p {
+    margin-bottom: 10px;
+}
+
+#projects li a {
+    color: #007bff;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+#projects li a:hover {
+    color: #0056b3;
+}
+#projects .image-container {
     display: flex;
   }
   
-  #projects li img {
-    width: 200px;
-    margin-right: 20px;
-  }
-  
-  #projects li div {
-    flex-grow: 1;
-  }
-  
-  #projects li h3 {
-    font-size: 1.2rem;
-    margin-bottom: 5px;
-  }
-  
-  #projects li p {
-    margin-bottom: 10px;
-    font-size: 1rem;
-  }
-  
-  #projects li a {
-    color: #fff;
-    text-decoration: none;
-    transition: color 0.3s ease;
-  }
-  
-  #projects li a:hover {
-    color: #ccc;
+  #projects .image-container img {
+    width: 50%;
   }
   
