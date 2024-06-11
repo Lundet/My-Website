@@ -28,8 +28,8 @@ function Projects() {
             <p>A cinema website developed with React, showcasing movie listings and details.</p>
           </div>
           <div className="image-container">
-            <img src={reactCinemaImage1} />
-            <img src={reactCinemaImage2} />
+            <img src={reactCinemaImage1} alt="React Cinema Site" />
+            <img src={reactCinemaImage2} alt="React Cinema Site" />
           </div>
         </li>
         <li>
@@ -37,21 +37,21 @@ function Projects() {
             <h3>PHP Book Review</h3>
             <p>A book review platform built with PHP and MySQL, allowing users to review and rate books.</p>
           </div>
-          <img src={phpBookReviewImage} />
+          <img src={phpBookReviewImage} alt="PHP Book Review" />
         </li>
         <li>
           <div>
             <h3>Make Your Own Website</h3>
             <p>A PHP case where users can create their own websites using a custom-built platform.</p>
           </div>
-          <img src={makeYourOwnWebsiteImage} />
+          <img src={makeYourOwnWebsiteImage} alt="Make Your Own Website" />
         </li>
         <li>
           <div>
             <h3>Preschool Site</h3>
             <p>An end project for school, this preschool site is designed to be user-friendly and informative for both parents and teachers. Developed with a combination of HTML, CSS, and JavaScript, the site includes features like class schedules, teacher bios, and a gallery of student activities.</p>
           </div>
-          <img src={preschoolSiteImage} />
+          <img src={preschoolSiteImage} alt="Preschool Site" />
         </li>
       </ul>
     </section>
