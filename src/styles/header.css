@@ -1,3 +1,5 @@
+/* styles/header.css */
+
 header {
     background-color: #333;
     color: #fff;
@@ -6,7 +8,6 @@ header {
     top: 0;
     z-index: 999;
     margin: 0;
-    padding: 1.5rem 0;
     background-image: url('https://images.unsplash.com/photo-1519774097905-a937f6c552e6?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D');
     background-size: cover;
     background-repeat: no-repeat;
