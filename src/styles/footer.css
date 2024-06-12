@@ -3,7 +3,50 @@ footer {
     background-color: #333;
     color: #fff;
     text-align: center;
-    padding: 1em;
+    padding: 2em; /* Increased padding */
     margin-top: 20px;
     border-top: 1px solid #555;
+}
+
+.footer-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.social-links {
+    font-size: 2em;
+    display: flex;
+    align-items: center; /* Center the icons vertically */
+}
+
+.social-links a {
+    color: #fff;
+    font-size: 2em; /* Increased font size for icons */
+    margin-right: 20px; /* Increased margin between icons */
+}
+
+.social-links a:last-child {
+    margin-right: 0;
+}
+
+.social-links a:hover {
+    color: #ccc;
+}
+
+.footer-content p {
+    margin: 10px 0; /* Increased margin */
+    font-size: 1.2em; /* Increased font size */
+}
+
+.footer-content a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 1.2em; /* Increased font size */
+}
+
+.footer-content a:hover {
+    text-decoration: underline;
 }
