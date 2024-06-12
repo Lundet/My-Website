@@ -91,6 +91,9 @@ nav a:hover {
 
 /* Responsive design example */
 @media (max-width: 768px) {
+    header{
+        position: relative;
+    }
     nav ul {
         display: block; /* Change to block for smaller screens */
         text-align: center; /* Align items to center on smaller screens */
@@ -98,10 +101,10 @@ nav a:hover {
 
     nav li {
         margin-right: 0; /* Remove margin-right for smaller screens */
-        margin-bottom: 1rem; /* Add margin bottom for spacing */
+        margin-bottom: 20px; /* Add margin bottom for spacing */
     }
 
     nav a {
-        padding: 10px 20px; /* Adjusted padding for smaller screens */
+        padding: 0; /* Adjusted padding for smaller screens */
     }
 }
