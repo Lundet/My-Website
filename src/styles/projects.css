@@ -71,3 +71,9 @@
 #projects li a:hover {
     color: #fff;
 }
+@media (max-width: 768px) {
+    #projects li img {
+        width: 100%; /* Set width to 100% on smaller screens */
+        margin-right: 0; /* Remove margin on smaller screens */
+    }
+}
