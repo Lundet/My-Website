@@ -1,19 +1,57 @@
 /* styles/hobbies.css */
+
 #hobbies {
-    background-color: rgba(0, 0, 0, 0.7);
-    color: #fff;
+    background-color: rgba(255, 255, 255, 0.8); /* Light background color */
+    color: #333; /* Dark text color for contrast */
     padding: 20px;
     border-radius: 10px;
-    margin-bottom: 20px;
+    margin: 50px auto;
+    max-width: 800px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
 }
 
-#hobbies h2 {
+
+#hobbies h1 {
     font-size: 1.5rem;
-    margin-bottom: 10px;
+    margin-top: 40px;
+    margin-bottom: 20px;
+    color: #333; /* Dark text color */
+    text-align: center;
 }
 
 #hobbies p {
-    font-size: 1rem;
-    line-height: 1.5;
-    margin-bottom: 10px;
+    font-size: 1.2rem;
+    line-height: 1.6;
+    margin-bottom: 20px;
+    color: #333; /* Dark text color */
+}
+
+#hobbies a {
+    color: #0066cc;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+#hobbies a:hover {
+    color: #003366;
+    text-decoration: underline;
+}
+
+/* Responsive design */
+@media (max-width: 768px) {
+    #hobbies h2 {
+        font-size: 1.8rem;
+    }
+
+    #hobbies h1 {
+        font-size: 1.3rem;
+    }
+
+    #hobbies p {
+        font-size: 1rem;
+    }
+
+    #hobbies {
+        padding: 10px;
+    }
 }

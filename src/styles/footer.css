@@ -50,3 +50,24 @@ footer {
 .footer-content a:hover {
     text-decoration: underline;
 }
+/* Responsive design */
+@media (max-width: 768px) {
+    .footer-content {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    .social-links {
+        justify-content: center;
+        margin-bottom: 20px; /* Add margin below social links */
+    }
+
+    .social-links a {
+        margin: 10px; /* Add margin around icons for better spacing on small screens */
+    }
+
+    .footer-content p, .footer-content a {
+        font-size: 1em; /* Adjust font size for better readability on small screens */
+    }
+}
