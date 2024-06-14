@@ -15,10 +15,29 @@ function Projects() {
         Here are some of the projects I've worked on. You can also find the source code on GitHub: <a href={"https://github.com/Lundet?tab=repositories"} target="_blank" rel="noopener noreferrer">View on GitHub</a>
       </p>
       <ul>
+      <li>
+      <div>
+            <h3>Preschool Site</h3>
+            <p>An end project for school, this preschool site is designed to be user-friendly and informative for both parents and teachers.</p>
+            <p>Developed with HTML, CSS, and JavaScript, the site includes features like class schedules, teacher bios, and a gallery of student activities.</p>
+            <p>I designed the entire project from scratch and implemented a custom theme in WordPress.</p>
+          </div>
+          <img src={preschoolSiteImage} alt="Preschool Site" />
+        </li>
         <li>
           <div>
             <h3>Canvas Game</h3>
             <p>A browser-based game created using HTML5 Canvas and JavaScript.</p>
+            <p>During this project I learned:</p>
+              <ul>
+                <li>Implementing websockets for real-time communication</li>
+                <li>Using HTML5 Canvas for dynamic graphical elements</li>
+                <li>Creating a well-documented codebase with regular git commits</li>
+                <li>Developing a user-friendly interface</li>
+                <li>Designed my own character and map</li>
+                <li>Techniques for collision detection and animations</li>
+                <li>Creating a lively chat functionality</li>
+              </ul>
           </div>
           <img src={canvasGameImage} alt="Canvas Game" />
         </li>
@@ -45,13 +64,6 @@ function Projects() {
             <p>A PHP case where users can create their own websites using a custom-built platform.</p>
           </div>
           <img src={makeYourOwnWebsiteImage} alt="Make Your Own Website" />
-        </li>
-        <li>
-          <div>
-            <h3>Preschool Site</h3>
-            <p>An end project for school, this preschool site is designed to be user-friendly and informative for both parents and teachers. Developed with a combination of HTML, CSS, and JavaScript, the site includes features like class schedules, teacher bios, and a gallery of student activities.</p>
-          </div>
-          <img src={preschoolSiteImage} alt="Preschool Site" />
         </li>
       </ul>
     </section>
