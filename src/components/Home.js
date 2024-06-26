@@ -9,7 +9,8 @@ function Home() {
     <div className="home-container">
       <div className="main-content">
         <div className="text-section">
-          <h2>Welcome to My Website(in progress)</h2>
+          <h1>Hannes Lundin</h1>
+          <h2>Welcome to My Website</h2>
           <p>
             Hello! My name is Hannes Lundin, and I'm a passionate web developer with a background in game development and technology. I thrive on challenges and have a strong foundation in HTML, CSS, JavaScript, PHP, MySQL, and Node.js. My journey into coding began in high school, and I've been on a quest for knowledge ever since.
           </p>    
@@ -18,7 +19,7 @@ function Home() {
           </Link>
         </div>
         <div className="picture-section">
-          <img src={profilePicture} alt="Profile" className="profile-picture" />
+          <img src={profilePicture} alt="Profile of Hannes Lundin" className="profile-picture" />
         </div>
         <div className="skills-section">
           <Skills />
