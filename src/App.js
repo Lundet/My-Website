@@ -1,6 +1,5 @@
-// App.js
-import React, { useEffect } from 'react';
-import { BrowserRouter as Router, Route, Routes, useLocation } from 'react-router-dom';
+import React, { useState } from 'react';
+import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import ReactGA from 'react-ga';
 import Header from './components/Header';
 import Footer from './components/Footer';
@@ -9,19 +8,32 @@ import About from './components/About';
 import Projects from './components/Projects';
 import Hobbies from './components/Hobbies';
 import Resume from './components/Resume';
+import CookieBanner from './components/CookieBanner'; // Importera din CookieBanner-komponent här
 import './App.css';
 
 const TRACKING_ID = "G-TSN98DZJ0L"; // Ersätt med ditt Google Analytics mätning-ID
 
-ReactGA.initialize(TRACKING_ID);
+function initializeReactGA() {
+  ReactGA.initialize(TRACKING_ID);
+  ReactGA.pageview(window.location.pathname + window.location.search);
+}
 
 function App() {
+  const [showCookieBanner, setShowCookieBanner] = useState(!localStorage.getItem('cookieConsent'));
+
+  const handleAcceptCookies = () => {
+    localStorage.setItem('cookieConsent', 'true');
+    setShowCookieBanner(false);
+  };
+
+  initializeReactGA();
+
   return (
     <Router>
       <div className="App">
         <Header />
         <main>
-          <Analytics />
+          {showCookieBanner && <CookieBanner onAccept={handleAcceptCookies} />}
           <Routes>
             <Route path="/" element={<Home />} />
             <Route path="/about" element={<About />} />
@@ -34,17 +46,6 @@ function App() {
       </div>
     </Router>
   );
-}
-
-function Analytics() {
-  const location = useLocation();
-
-  useEffect(() => {
-    ReactGA.set({ page: location.pathname });
-    ReactGA.pageview(location.pathname);
-  }, [location]);
-
-  return null;
 }
 
 export default App;
