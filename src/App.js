@@ -1,3 +1,4 @@
+// App.js
 import React, { useState } from 'react';
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import ReactGA from 'react-ga';
@@ -8,21 +9,25 @@ import About from './components/About';
 import Projects from './components/Projects';
 import Hobbies from './components/Hobbies';
 import Resume from './components/Resume';
-import CookieBanner from './components/CookieBanner'; // Importera din CookieBanner-komponent här
+import CookieBanner from './components/CookieBanner'; // Import your CookieBanner component
 import './App.css';
 
-const TRACKING_ID = "G-TSN98DZJ0L"; // Ersätt med ditt Google Analytics mätning-ID
+const TRACKING_ID = "G-TSN98DZJ0L"; // Replace with your Google Analytics Measurement ID
 
 function initializeReactGA() {
   ReactGA.initialize(TRACKING_ID);
   ReactGA.pageview(window.location.pathname + window.location.search);
 }
-
 function App() {
   const [showCookieBanner, setShowCookieBanner] = useState(!localStorage.getItem('cookieConsent'));
 
   const handleAcceptCookies = () => {
     localStorage.setItem('cookieConsent', 'true');
+    setShowCookieBanner(false);
+  };
+
+  const handleDeclineCookies = () => {
+    localStorage.setItem('cookieConsent', 'false');
     setShowCookieBanner(false);
   };
 
@@ -33,7 +38,7 @@ function App() {
       <div className="App">
         <Header />
         <main>
-          {showCookieBanner && <CookieBanner onAccept={handleAcceptCookies} />}
+          {showCookieBanner && <CookieBanner onAccept={handleAcceptCookies} onDecline={handleDeclineCookies} />}
           <Routes>
             <Route path="/" element={<Home />} />
             <Route path="/about" element={<About />} />
@@ -47,5 +52,6 @@ function App() {
     </Router>
   );
 }
+
 
 export default App;
