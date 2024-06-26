@@ -1,11 +1,12 @@
 // CookieBanner.js
 import React from 'react';
+import './CookieBanner.css'; // Assuming you have a CSS file for styling
 
 const CookieBanner = ({ onAccept }) => {
   return (
     <div className="cookie-banner">
-      <p>Denna webbplats använder cookies för att förbättra användarupplevelsen.</p>
-      <button onClick={onAccept}>Acceptera cookies</button>
+      <p>This website uses cookies to enhance the user experience.</p>
+      <button onClick={onAccept}>Accept Cookies</button>
     </div>
   );
 };
