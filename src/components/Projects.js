@@ -1,4 +1,5 @@
 import React from 'react';
+import { Helmet } from 'react-helmet';
 import '../styles/projects.css';
 import canvasGameImage from '../images/canvas-game.png';
 import reactCinemaImage1 from '../images/react1.png';
@@ -10,24 +11,43 @@ import preschoolSiteImage from '../images/pree-school.png';
 function Projects() {
   return (
     <section id="projects">
+      <Helmet>
+        <html lang="sv" />
+        <title>Projekt - Hannes Lundin | Webbutvecklare</title>
+        <meta
+          name="description"
+          content="Utforska projekten jag har arbetat med - från förskolesidor till canvas-spel och React-biografsidor. Besök min GitHub för mer information."
+        />
+        <meta
+          name="keywords"
+          content="webbutvecklare, projekt, förskolesida, canvas-spel, React-biografsida, PHP bokrecension, skapa din egen webbplats"
+        />
+      </Helmet>
       <h2>Projects</h2>
       <p>
-        Here are some of the projects I've worked on. You can also find the source code on GitHub: <a href={"https://github.com/Lundet?tab=repositories"} target="_blank" rel="noopener noreferrer">View on GitHub</a>
+        Here are some of the projects I've worked on. You can also find the source code on GitHub:{' '}
+        <a
+          href="https://github.com/Lundet?tab=repositories"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          View on GitHub
+        </a>
+        .
       </p>
-      <ul>
-        <li>
-          <div>
+      <ul className="project-list">
+        <li className="project-item">
+          <div className="project-details">
             <h3>Preschool Site</h3>
             <p>An end project for school, this preschool site is designed to be user-friendly and informative for both parents and teachers.</p>
             <p>Developed with HTML, CSS, and JavaScript, the site includes features like class schedules, teacher bios, and a gallery of student activities.</p>
             <p>I designed the entire project from scratch and implemented a custom theme in WordPress.</p>
-            <p><a href="https://solbarn.se/" target="_blank" rel="noopener noreferrer">https://solbarn.se/</a></p>
-
+            <p><a href="https://solbarn.se/" target="_blank" rel="noopener noreferrer">Visit the site</a></p>
           </div>
           <img src={preschoolSiteImage} alt="Preschool Site" />
         </li>
-        <li>
-          <div>
+        <li className="project-item">
+          <div className="project-details">
             <h3>Canvas Game</h3>
             <p>A browser-based game created using HTML5 Canvas and JavaScript.</p>
             <p>During this project I learned:</p>
@@ -43,25 +63,25 @@ function Projects() {
           </div>
           <img src={canvasGameImage} alt="Canvas Game" />
         </li>
-        <li>
-          <div>
+        <li className="project-item">
+          <div className="project-details">
             <h3>React Cinema Site</h3>
             <p>A cinema website developed with React, showcasing movie listings and details.</p>
           </div>
           <div className="image-container">
-            <img src={reactCinemaImage1} alt="React Cinema Site" />
-            <img src={reactCinemaImage2} alt="React Cinema Site" />
+            <img src={reactCinemaImage1} alt="React Cinema Site 1" />
+            <img src={reactCinemaImage2} alt="React Cinema Site 2" />
           </div>
         </li>
-        <li>
-          <div>
+        <li className="project-item">
+          <div className="project-details">
             <h3>PHP Book Review</h3>
             <p>A book review platform built with PHP and MySQL, allowing users to review and rate books.</p>
           </div>
           <img src={phpBookReviewImage} alt="PHP Book Review" />
         </li>
-        <li>
-          <div>
+        <li className="project-item">
+          <div className="project-details">
             <h3>Make Your Own Website</h3>
             <p>A PHP case where users can create their own websites using a custom-built platform.</p>
           </div>
