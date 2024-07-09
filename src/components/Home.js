@@ -1,5 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
+import { Helmet } from 'react-helmet';
 import Skills from './Skills';
 import profilePicture from '../images/profile-picture.jpg';
 import '../styles/home.css'; // Import CSS file for styling
@@ -7,6 +8,20 @@ import '../styles/home.css'; // Import CSS file for styling
 function Home() {
   return (
     <div className="home-container">
+      <Helmet>
+        <html lang="sv" />
+        <title>Anlita en Webbutvecklare i Helsingborg, Skåne | Hannes Lundin</title>
+        <meta name="description" content="Hannes Lundin - Webbutvecklare specialiserad på HTML, CSS, JavaScript, PHP, MySQL och Node.js. Utforska mitt portfolio, projekt och hobbyer. Anlita en erfaren webbutvecklare i Helsingborg, Skåne eller andra delar av Sverige." />
+        <meta name="keywords" content="anlita webbutvecklare, hyr webbutvecklare, webbutvecklare, webbutvecklare Helsingborg, webbutvecklare Skåne, webdesigner Helsingborg, webdesigner Skåne, frilans webbutvecklare, webbutveckling, WordPress utvecklare, hire a web developer, Helsingborg, Skåne, Sverige, webbutvecklare Stockholm, webbutvecklare Göteborg, web designer Malmö, HTML, CSS, JavaScript, PHP, MySQL, Node.js, webbdesign, webbdesigner, hemsida utvecklare, frilansare, hemsida, webbsida, webbapplikation, fullstack utvecklare, frontend utvecklare, backend utvecklare" />
+        <meta name="author" content="Hannes Lundin" />
+        <meta property="og:title" content="Anlita Hannes Lundin - Erfaren Webbutvecklare | Portfolio" />
+        <meta property="og:description" content="Hannes Lundin - Webbutvecklare specialiserad på HTML, CSS, JavaScript, PHP, MySQL och Node.js. Utforska mitt portfolio, projekt och hobbyer. Anlita en erfaren webbutvecklare i Helsingborg, Skåne eller andra delar av Sverige." />
+        <meta property="og:image" content={profilePicture} />
+        <meta property="og:url" content="https://hanneslundin.com" />
+        <meta property="og:type" content="website" />
+        <meta property="og:site_name" content="Hannes Lundins Portfolio" />
+        <meta property="og:locale" content="sv_SE" />
+      </Helmet>
       <div className="main-content">
         <div className="text-section">
           <h1>Hannes Lundin</h1>
