@@ -34,7 +34,8 @@ function Home() {
           </Link>
         </div>
         <div className="picture-section">
-          <img src={profilePicture} alt="Profile of Hannes Lundin" className="profile-picture" />
+        <img src={profilePicture} alt="Profile of Hannes Lundin" className="profile-picture" loading="lazy" />
+
         </div>
         <div className="skills-section">
           <Skills />
