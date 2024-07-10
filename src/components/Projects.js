@@ -92,21 +92,21 @@ function Projects() {
         </li>
 
         <li className="project-item">
-  <div className="project-details">
-    <h3>Make Your Own Website</h3>
-    <p>A full-stack PHP application where users can dynamically create and manage their own websites using a custom-built platform.</p>
-    <p>Utilizing PHP for server-side logic and MySQL for data storage, this platform enables users to create web pages that can include text, images, and other media elements.</p>
-    <p>Key features include:</p>
-    <ul>
-      <li>User registration and login system with password hashing for security.</li>
-      <li>Ability for logged-in users to create, edit, and delete their own pages.</li>
-      <li>Integration with an image database allowing users to manage image links associated with each unique page.</li>
-      <li>Dynamic page retrieval using server-side rendering, ensuring content is fetched and displayed securely.</li>
-      <li>Design implemented using a responsive CSS framework like Tailwind or Bootstrap, ensuring compatibility across different devices.</li>
-    </ul>
-  </div>
-  <img src={makeYourOwnWebsiteImage} alt="Make Your Own Website" />
-</li>
+          <div className="project-details">
+            <h3>Make Your Own Website</h3>
+            <p>A full-stack PHP application where users can dynamically create and manage their own websites using a custom-built platform.</p>
+            <p>Utilizing PHP for server-side logic and MySQL for data storage, this platform enables users to create web pages that can include text, images, and other media elements.</p>
+            <p>Key features include:</p>
+            <ul>
+              <li>User registration and login system with password hashing for security.</li>
+              <li>Ability for logged-in users to create, edit, and delete their own pages.</li>
+              <li>Integration with an image database allowing users to manage image links associated with each unique page.</li>
+              <li>Dynamic page retrieval using server-side rendering, ensuring content is fetched and displayed securely.</li>
+              <li>Design implemented using a responsive CSS framework like Tailwind or Bootstrap, ensuring compatibility across different devices.</li>
+            </ul>
+          </div>
+          <img src={makeYourOwnWebsiteImage} alt="Make Your Own Website" />
+        </li>
 
       </ul>
     </section>
