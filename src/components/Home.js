@@ -13,7 +13,7 @@ function Home() {
         <meta name="description" content="Hannes Lundin - Webbutvecklare specialiserad på HTML, CSS, JavaScript, PHP, MySQL och Node.js. Anlita en erfaren webbutvecklare i Helsingborg, Skåne" />
         <meta name="keywords" content="anlita webbutvecklare, hyr webbutvecklare, webbutvecklare, webbutvecklare Helsingborg, webbutvecklare Skåne, webdesigner Helsingborg, webdesigner Skåne, frilans webbutvecklare, webbutveckling, WordPress utvecklare, hire a web developer, Helsingborg, Skåne, Sverige, webbutvecklare Stockholm, webbutvecklare Göteborg, web designer Malmö, HTML, CSS, JavaScript, PHP, MySQL, Node.js, webbdesign, webbdesigner, hemsida utvecklare, frilansare, hemsida, webbsida, webbapplikation, fullstack utvecklare, frontend utvecklare, backend utvecklare" />
         <meta name="author" content="Hannes Lundin" />
-        <meta property="og:title" content="Anlita Hannes Lundin - Erfaren Webbutvecklare | Portfolio" />
+        <meta property="og:title" content="Anlita Hannes Lundin - Webbutvecklare - Helsingborg | Portfolio" />
         <meta property="og:description" content="Hannes Lundin - Webbutvecklare specialiserad på HTML, CSS, JavaScript, PHP, MySQL och Node.js. Utforska mitt portfolio, projekt och hobbyer. Anlita en erfaren webbutvecklare i Helsingborg, Skåne eller andra delar av Sverige." />
         <meta property="og:image" content={profilePicture} />
         <meta property="og:url" content="https://hanneslundin.com" />
