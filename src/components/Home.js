@@ -24,7 +24,7 @@ function Home() {
       </Helmet>
       <div className="main-content">
         <div className="text-section">
-          <h1>Hannes Lundin</h1>
+          <h2>Hannes Lundin</h2>
           <h2>Welcome to My Website</h2>
           <p>
             Hello! My name is Hannes Lundin, and I'm a passionate web developer with a background in game development and technology. I thrive on challenges and have a strong foundation in HTML, CSS, JavaScript, PHP, MySQL, and Node.js. My journey into coding began in high school, and I've been on a quest for knowledge ever since.
