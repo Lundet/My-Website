@@ -40,7 +40,7 @@ function Home() {
           <Skills />
         </div>
       </div>
-      <h1>Quick Links</h1>
+      <h2>Quick Links</h2>
       <div className="navigation-cards">
         <Link to="/projects" className="card">
           <h4>Projects</h4>
