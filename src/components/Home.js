@@ -15,7 +15,6 @@ function Home() {
         <meta name="author" content="Hannes Lundin" />
         <meta property="og:title" content="Anlita Webbutvecklare Helsingborg - Hannes Lundin | Portfolio"/>
         <meta property="og:description" content="Hannes Lundin - Webbutvecklare specialiserad på HTML, CSS, JavaScript, PHP, MySQL och Node.js. Utforska mitt portfolio, projekt och hobbyer. Anlita en erfaren webbutvecklare i Helsingborg, Skåne eller andra delar av Sverige." />
-        <meta property="og:image" content={profilePicture} />
         <meta property="og:url" content="https://hanneslundin.com" />
         <meta property="og:type" content="website" />
         <meta property="og:site_name" content="Hannes Lundins Portfolio" />
