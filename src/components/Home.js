@@ -2,7 +2,7 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 import { Helmet } from 'react-helmet';
 import Skills from './Skills';
-import profilePicture from '../images/profile-picture.jpg';
+import profilePicture from '../images/pfp.jpg';
 import '../styles/home.css'; // Import CSS file for styling
 
 function Home() {
