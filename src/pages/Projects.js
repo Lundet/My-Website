@@ -14,6 +14,7 @@ function Projects() {
       <Helmet>
         <html lang="sv" />
         <title>Projekt - Hannes Lundin | Webbutvecklare</title>
+        <link rel="canonical" href="https://hanneslundin.com/projects" />
         <meta
           name="description"
           content="Utforska projekten jag har arbetat med - från förskolesidor till canvas-spel och React-biografsidor. Besök min GitHub för mer information."

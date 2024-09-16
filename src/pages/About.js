@@ -15,6 +15,7 @@ function About() {
         <meta property="og:image" content="%PUBLIC_URL%/profile-picture.jpg" />
         <meta property="og:url" content="https://hanneslundin.com/about" />
         <meta property="og:type" content="website" />
+        <link rel="canonical" href="https://hanneslundin.com/about" />
       </Helmet>
       <section id="about">
         <h2>About Me</h2>

@@ -1,9 +1,14 @@
 import React from 'react';
+import { Helmet } from 'react-helmet';
 import '../styles/hobbies.css';
 
 function Hobbies() {
   return (
     <div id="hobbies">
+      <Helmet>
+        <title>Hobbies - Hannes Lundin</title>
+        <link rel="canonical" href="https://hanneslundin.com/hobbies" />
+      </Helmet>
       <section>
         <h2>Hobbies</h2>
         <p>

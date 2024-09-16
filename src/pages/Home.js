@@ -1,7 +1,7 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import { Helmet } from 'react-helmet';
-import Skills from './Skills';
+import Skills from '../components/Skills';
 import profilePicture from '../images/pfp.jpg';
 import '../styles/home.css'; // Import CSS file for styling
 
@@ -10,6 +10,7 @@ function Home() {
     <div className="home-container">
       <Helmet>
         <title>Anlita en Webbutvecklare i Helsingborg, Skåne</title>
+        <link rel="canonical" href="https://hanneslundin.com/" />
         <meta name="description" content="Hannes Lundin - Passionerad webbutvecklare i Helsingborg. Specialiserad på HTML, CSS, JavaScript, PHP, MySQL och Node.js. Upptäck mitt portfolio och anlita en erfaren utvecklare idag!" />
         <meta name="keywords" content="anlita webbutvecklare, hyr webbutvecklare, webbutvecklare, webbutvecklare Helsingborg, webbutvecklare Skåne, webdesigner Helsingborg, webdesigner Skåne, frilans webbutvecklare, webbutveckling, WordPress utvecklare, hire a web developer, Helsingborg, Skåne, Sverige, webbutvecklare Stockholm, webbutvecklare Göteborg, web designer Malmö, HTML, CSS, JavaScript, PHP, MySQL, Node.js, webbdesign, webbdesigner, hemsida utvecklare, frilansare, hemsida, webbsida, webbapplikation, fullstack utvecklare, frontend utvecklare, backend utvecklare" />
         <meta name="author" content="Hannes Lundin" />
