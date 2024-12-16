@@ -23,6 +23,7 @@ function Skills() {
           </li>
           <li>Server-Side
             <ul>
+              <li>.NET C#</li>
               <li>Node.js</li>
               <li>Express.js</li>
             </ul>
