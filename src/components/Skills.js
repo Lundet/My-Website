@@ -1,13 +1,14 @@
-// Skills.js
 import React from 'react';
 import '../styles/skills.css';
+
 function Skills() {
   return (
     <aside id="skills">
       <h2>Skills</h2>
       <div className="skill-tree">
         <ul>
-          <li>Web Development
+          <li>
+            <span className="category">Web Development</span>
             <ul>
               <li>HTML5</li>
               <li>CSS3</li>
@@ -16,32 +17,35 @@ function Skills() {
               <li>WordPress</li>
             </ul>
           </li>
-          <li>Version Control
+          <li>
+            <span className="category">Version Control</span>
             <ul>
               <li>Git</li>
             </ul>
           </li>
-          <li>Server-Side
+          <li>
+            <span className="category">Server-Side</span>
             <ul>
               <li>.NET C#</li>
               <li>Node.js</li>
               <li>Express.js</li>
             </ul>
           </li>
-          <li>Databases
+          <li>
+            <span className="category">Databases</span>
             <ul>
               <li>MySQL</li>
             </ul>
           </li>
-        </ul>
-        <ul>
-          <li>Esports
+          <li>
+            <span className="category">Esports</span>
             <ul>
               <li>League of Legends (Master Tier)</li>
-              <li>Youtbe/Twitch</li>
+              <li>YouTube/Twitch</li>
             </ul>
           </li>
-          <li>Music Production
+          <li>
+            <span className="category">Music Production</span>
             <ul>
               <li>FL Studio</li>
             </ul>
