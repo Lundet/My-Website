@@ -7,6 +7,8 @@ import reactCinemaImage2 from '../images/react2.png';
 import phpBookReviewImage from '../images/book.review.png';
 import makeYourOwnWebsiteImage from '../images/make-your-own-site.png';
 import preschoolSiteImage from '../images/pree-school.png';
+// Import placeholder image or your actual game image
+import casinoSlotsGameImage from '../images/casino.png';
 
 function Projects() {
   return (
@@ -46,6 +48,24 @@ function Projects() {
             <p><a href="https://solbarn.se/" target="_blank" rel="noopener noreferrer">Visit the site</a></p>
           </div>
           <img src={preschoolSiteImage} alt="Preschool Site" />
+        </li>
+        <li className="project-item">
+          <div className="project-details">
+            <h3>Casino Slots Game</h3>
+            <p>A fun casino slots game developed using web technologies.</p>
+            <p>This game was designed as a school project with a focus on creating a functional 3 reel slot</p>
+            <ul>
+              <li>Implemented using React</li>
+              <li>A bonus round triggered approximately every 150 spins, adding excitement and engagement for players.</li>
+              <li>Dynamic animations and sound effects to enhance the user experience.</li>
+              <li>Customizable slot symbols and themes to make the game visually appealing.</li>
+              <li>Implementation of a fair and transparent RTP calculation to simulate real-world casino mechanics.</li>
+              <li>Responsive design to ensure compatibility across various devices.</li>
+            </ul>
+            <p>The project helped me learn about probability, game mechanics, and user interface design, while also improving my JavaScript and React skills.</p>
+            <p><a href="https://casino-slots-game.netlify.app/" target="_blank" rel="noopener noreferrer">Visit the game</a></p>
+          </div>
+          <img src={casinoSlotsGameImage} alt="Casino Slots Game" />
         </li>
         <li className="project-item">
           <div className="project-details">
@@ -108,7 +128,7 @@ function Projects() {
           </div>
           <img src={makeYourOwnWebsiteImage} alt="Make Your Own Website" />
         </li>
-
+        
       </ul>
     </section>
   );
