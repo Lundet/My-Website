@@ -10,7 +10,8 @@ function Skills() {
           <li>
             <span className="category">Web Development</span>
             <ul>
-              <li>HTML5</li>
+              
+              <li> HTML5</li>
               <li>CSS3</li>
               <li>JavaScript</li>
               <li>React</li>

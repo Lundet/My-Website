@@ -45,7 +45,6 @@
     color: #3498db; /* Blue on hover */
 }
 
-
 .skill-tree ul ul li {
     font-size: 1.1rem;
     margin-bottom: 5px;
@@ -53,6 +52,12 @@
     position: relative;
     padding-left: 20px; /* Add padding for the hanging indent */
     text-indent: -20px; /* Create the hanging indent */
+    transition: color 0.3s ease; /* Smooth transition for color */
+}
+
+.skill-tree ul ul li:hover {
+    cursor: pointer;
+    color: #3498db; /* Highlight individual sub-skill on hover */
 }
 
 .skill-tree ul ul li::before {
@@ -63,7 +68,8 @@
 }
 
 /* "Shine" Effect */
-.skill-tree .category:hover + ul li {
+.skill-tree .category:hover + ul li,
+.skill-tree ul ul li:hover {
     color: #3498db; /* Highlight sub-skills on hover */
     font-weight: normal; /* Remove bold */
 }
