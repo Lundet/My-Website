@@ -6,7 +6,7 @@ function Skills() {
     <aside id="skills">
       <h2>Skills</h2>
       <div className="skill-tree">
-        <ul>
+        <ul className="tree">
           <li>
             <span className="category">Web Development</span>
             <ul>
