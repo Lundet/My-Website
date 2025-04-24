@@ -14,7 +14,7 @@ function Home() {
         <meta name="description" content="Hannes Lundin - Passionerad webbutvecklare i Helsingborg. Specialiserad på HTML, CSS, JavaScript, PHP, MySQL och Node.js. Upptäck mitt portfolio och anlita en erfaren utvecklare idag!" />
         <meta name="keywords" content="anlita webbutvecklare, hyr webbutvecklare, webbutvecklare, webbutvecklare Helsingborg, webbutvecklare Skåne, webdesigner Helsingborg, webdesigner Skåne, frilans webbutvecklare, webbutveckling, WordPress utvecklare, hire a web developer, Helsingborg, Skåne, Sverige, webbutvecklare Stockholm, webbutvecklare Göteborg, web designer Malmö, HTML, CSS, JavaScript, PHP, MySQL, Node.js, webbdesign, webbdesigner, hemsida utvecklare, frilansare, hemsida, webbsida, webbapplikation, fullstack utvecklare, frontend utvecklare, backend utvecklare" />
         <meta name="author" content="Hannes Lundin" />
-        <meta property="og:title" content="Anlita Webbutvecklare Helsingborg - Hannes Lundin | Portfolio" />
+        <meta property="og:title" content="Anlita Webbutvecklare Helsingborg - Hannes Lundin | Portfolio"/>
         <meta property="og:description" content="Hannes Lundin - Webbutvecklare specialiserad på HTML, CSS, JavaScript, PHP, MySQL och Node.js. Utforska mitt portfolio, projekt och hobbyer. Anlita en erfaren webbutvecklare i Helsingborg, Skåne eller andra delar av Sverige." />
         <meta property="og:url" content="https://hanneslundin.com" />
         <meta property="og:type" content="website" />
@@ -28,9 +28,7 @@ function Home() {
           <h1>Hannes Lundin - Webdeveloper in Helsingborg</h1>
           <h2>Welcome to My Website</h2>
           <p>
-            Hello! My name is Hannes Lundin, and I'm a passionate web developer with a background in game development and technology.
-            I thrive on challenges and have a strong foundation in HTML, CSS, JavaScript, PHP, MySQL, and Node.js.
-            My journey into coding began in high school, and I've been on a quest for knowledge ever since.
+            Hello! My name is Hannes Lundin, and I'm a passionate web developer with a background in game development and technology. I thrive on challenges and have a strong foundation in HTML, CSS, JavaScript, PHP, MySQL, and Node.js. My journey into coding began in high school, and I've been on a quest for knowledge ever since.
           </p>
           <Link to="/about" className="about-button">
             <p>Learn more about me</p>

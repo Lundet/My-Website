@@ -4,7 +4,7 @@ import '../styles/about.css';
 
 function About() {
   return (
-    <div className="main-content">
+    <div className="about-container">
       <Helmet>
         <html lang="sv" />
         <title>Om Mig - Hannes Lundin | Webbutvecklare i Helsingborg</title>
