@@ -6,15 +6,27 @@ function About() {
   return (
     <div className="about-container">
       <Helmet>
-        <html lang="sv" />
-        <title>Om Mig - Hannes Lundin | Webbutvecklare i Helsingborg</title>
-        <meta name="description" content="Jag är Hannes Lundin, en passionerad webbutvecklare baserad i Helsingborg. Läs mer om min bakgrund, intressen och färdigheter inom webbutveckling, spel och musikproduktion." />
-        <meta name="keywords" content="Hannes Lundin, webbutvecklare, Helsingborg, React utvecklare, HTML, CSS, JavaScript, PHP, MySQL, Node.js, League of Legends, musikproduktion, esports, spelutveckling" />
-        <meta property="og:title" content="Om Mig - Hannes Lundin | Webbutvecklare i Helsingborg" />
-        <meta property="og:description" content="Jag är Hannes Lundin, en passionerad webbutvecklare baserad i Helsingborg. Läs mer om min bakgrund, intressen och färdigheter inom webbutveckling, spel och musikproduktion." />
+        <title>Om Mig | Webbutvecklare i Helsingborg - Hannes Lundin</title>
+
+        <meta
+          name="description"
+          content="Hannes Lundin är en webbutvecklare i Helsingborg som bygger moderna hemsidor och webbapplikationer i React, Node.js och WordPress."
+        />
+
+        <meta
+          property="og:title"
+          content="Om Mig | Webbutvecklare Helsingborg - Hannes Lundin"
+        />
+
+        <meta
+          property="og:description"
+          content="Webbutvecklare i Helsingborg med fokus på moderna webbapplikationer, React och fullstack utveckling."
+        />
+
         <meta property="og:image" content="%PUBLIC_URL%/profile-picture.jpg" />
         <meta property="og:url" content="https://hanneslundin.com/about" />
         <meta property="og:type" content="website" />
+
         <link rel="canonical" href="https://hanneslundin.com/about" />
       </Helmet>
       <section id="about">
